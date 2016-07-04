@@ -1,0 +1,31 @@
+//
+//  Header.pch
+//  XY抽屉效果
+//
+//  Created by qingyun on 16/6/29.
+//  Copyright © 2016年 qingyun. All rights reserved.
+//
+
+#ifndef Header_pch
+#define Header_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AFNetworking/AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJExtension.h>
+#define HomeUrlH @"http://www.zhanqi.tv/api/static/live.hots/20-"
+#define HomeUrlF @".json?os=1&ver=3.1.1"
+
+#define XYScreenW [UIScreen mainScreen].bounds.size.width
+#define XYScreenH [UIScreen mainScreen].bounds.size.height
+
+#define APPKEY @"123141#chaoxuntv"     //我的应用
+#define UserName @"chaoxuntv"       //应用里的用户名
+#define PassWord @"woai208208"        //用户名密码
+#define GroupId @"213212975790555576"       //群ID
+
+
+#endif /* Header_pch */
